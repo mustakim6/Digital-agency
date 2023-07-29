@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* nav section style */
+.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+   padding: 6px;
+    background-color: rgb(215, 209, 201);
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+}
+
+.name{
+    color:blueviolet;
+}
+
+.menus a{
+    margin-left: 20px;
+    text-decoration: none;
+    color:rgb(251, 251, 251)
+}
+/* banner style */
+
+.banner-container{
+    height:500px;
+    background-image: url("./asset/image/background.jpg"),
+    linear-gradient(rgba(0,0,0, 0.3),rgba(0,0,0,0.2));
+    background-blend-mode: overlay;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+
+}
+
+.btn{
+
+    padding:10px;
+    border-radius:6px;
+    border:0;
+    margin-top:10px;
+    font-size: 16px;
+}
+.btn-1{
+    background-color: crimson;
+    color:aliceblue;
+    padding:10px;
+    border-radius:6px;
+    border:0;
+    margin-top:10px;
+    font-size: 16px;
+}
+.title{
+    color: rgb(255, 254, 253);
+    font-size: 46px;
+}
+
+.digital{
+    color:red;
+}
+
+.banar-description{
+    color:whitesmoke;
+    
+
+}
+
+
+/* services section styles */
+
+.service-container{
+    height:500px;
+    background-image: url("./asset/image/footer-bg.png"),
+    linear-gradient(rgba(0,0,0, 0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    /* text-align: center; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+
+.service-text{
+
+    color:white;
+
+}
+
+.service-description{
+    width:50%;
+}
+
+ol li{
+    
+}
+
+
+.box{
+
+width:150px;
+height:150px;
+padding: 6px;
+text-align: center;
+border-radius: 6px;
+background-color: cyan;
+
+}
+
+.box-img{
+
+    width:90px;
+
+}
+
+.all-box{
+    display:flex;
+    gap:6px;
+    margin-top: 6px;
+}
+.author-container{
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+  
+}
+
+.profile-container{
+
+    display:flex;
+    align-items: center;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
+
+.author-photo{
+
+    width:60px;
+    height: 60px;
+    padding: 6px;
+    border-radius:100px;
+
+}
+
+.author-btn{
+    margin-left: 20px;
+}
+
+.btn-2{
+    padding: 10px;
+    border: 0px;
+    color: aliceblue;
+    background-color: crimson;
+    border-radius: 100px;
+}
+
+/* appointemnt section style */
+
+.appointment-container{
+    display:flex;
+    align-items: center;
+    padding: 16px;
+    width:80%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    background-color: red;
+}
+
+.phone-call{
+    display:flex;
+    align-items: center;
+    border-right: 2px solid black;
+
+}
+.phn-icon{
+    width:60px;
+    padding: 6px;
+}
+
+/* blog sections styles */
+
+.blog-container{
+    text-align: center;
+}
+
+.blog-title{
+    font-size: 46px;
+    color: rgb(221, 15, 56);
+}
+.blog-desc{
+    color: rgb(240, 182, 106);
+    
+}
+
+.card-img{
+    width:200px;
+    height: 200px;
+
+}
+
+.cards-container{
+    display:flex;
+    justify-content: center;
+}
+
+.card{
+    width:200px;
+    height: 260px;
+    padding: 6px;
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0px 0px 6px dimgray;
+}
+
+/* footer styles */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    margin-bottom: 10px;
+}
